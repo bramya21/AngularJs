@@ -102,11 +102,3 @@
 
 
 /*bodmas operations for 3+2*5 exp using lambda*/
-var s:string="3+2*5";
-for(var i=0;i<s.length;i++)
-{
-    if(s[i]=='+')
-        console.log(`(${s[i-1]},${s[i+1]})=>${s[i-1]}+${s[i+1]}`);
-    else if(s[i]=='*')
-        console.log(`(${s[i-1]},${s[i+1]})=>${s[i-1]}*${s[i+1]}`);
-}
